@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Play Songs Section</title>
+      <link
+         rel="stylesheet"
+         href="./node_modules/bootstrap/dist/css/bootstrap.css"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      />
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <div class="outer-container">
+         <div class="container pt-3">
+            <div class="title text-center">
+               <h1>Play your favorite songs.</h1>
+               <p>
+                  You’ll have all the tools you need to make sure you never miss
+                  a note.
+               </p>
+            </div>
+
+            <div class="row mt-5 d-flex align-items-center">
+               <div class="col-lg-6 order-lg-2">
+                  <div class="element-control">
+                     <video
+                        class="lg:order-1 h-64 sm:h-96 rounded-xl cursor-pointer lazyloading"
+                        x-on:click="soundslice = true;"
+                        data-src="https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/someone-like-you2.mp4"
+                        type="video/mp4"
+                        autoplay=""
+                        loop=""
+                        playsinline=""
+                        muted=""
+                        src="https://d2vyvo0tyx8ig5.cloudfront.net/sales/2023/someone-like-you2.mp4"
+                     ></video>
+                  </div>
+               </div>
+               <div class="col-lg-6 px-5">
+                  <div class="icon-details">
+                     <img
+                        class="icons"
+                        src="./assets/icons/Note.svg"
+                        alt="popular-songs"
+                     />
+                     <div class="details">
+                        <h4>1000+ popular songs.</h4>
+                        <p>
+                           Get note-for-note song breakdowns for every style,
+                           era, and skill level.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="icon-details">
+                     <img
+                        class="icons"
+                        src="./assets/icons/Tempo.svg"
+                        alt="popular-songs"
+                     />
+                     <div class="details">
+                        <h4>Find the perfect tempo.</h4>
+                        <p>
+                           Slow down any section of a song to make those tricky
+                           bars easier.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="icon-details">
+                     <img
+                        class="icons"
+                        src="./assets/icons/Loop.svg"
+                        alt="popular-songs"
+                     />
+                     <div class="details">
+                        <h4>Loop the hard parts.</h4>
+                        <p>
+                           Create practice loops to play-through those difficult
+                           parts over and over.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="icon-details">
+                     <img
+                        class="icons"
+                        src="./assets/icons/Timing.svg"
+                        alt="popular-songs"
+                     />
+                     <div class="details">
+                        <h4>Improve your timing.</h4>
+                        <p>
+                           Use the built-in-metronome – your new best friend for
+                           difficult rhythms.
+                        </p>
+                     </div>
+                  </div>
+
+                  <div class="icon-details">
+                     <img
+                        class="icons"
+                        src="./assets/icons/Responsive.svg"
+                        alt="popular-songs"
+                     />
+                     <div class="details">
+                        <h4>Take your songs anywhere.</h4>
+                        <p>
+                           Accessible on any device, or printable, so you can
+                           play any song, any time.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="call-to-action">
+               <div class="buttons">
+                  <button class="song-list">
+                     SEE SONGS LIST<i class="bi bi-music-note-list"></i>
+                  </button>
+                  <button class="start-free">
+                     START FOR FREE<i class="bi bi-arrow-right-circle"></i>
+                  </button>
+               </div>
+
+               <p>Songs included with Pianote+</p>
+            </div>
+         </div>
+      </div>
+      <div class="section-footer">
+         <img src="./assets/icons/musora-instruments.svg" alt="instruments" />
+         <div class="text-control">
+            <h5>Any instrument, any time.</h5>
+            <p>
+               Powered by Musora, Pianote includes full access to our
+               communities for drums, guitar, and voice.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>
